@@ -1,3 +1,357 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+@media screen and (max-width:760px){
+
+	.menu{
+		display:block;
+		position: fixed;
+		left: 0;
+		top:0
+		bottom:0;
+		list-style-type: none;
+		width:125px;
+		border-right:solid 1px 	#A0AFBC;
+		z-index: 90px;
+		height: 100%;
+	}
+
+
+	.article{
+		display:block;
+		position: relative;
+		padding:50px 40px 30px 5%;
+		margin-left: 125px;
+		float:left;
+		font-family:sans-serif ;
+		color:#4d4d4d;
+		font-size: 18px;
+		font-weight: 200;
+		line-height: 25px;
+		
+		
+	}
+
+	.alsoread{
+		display:block;
+		position: relative;
+		float:left;
+		padding:50px 40px 30px 7%;
+		margin: 80px 40px 0 125px;
+		font-family:sans-serif ;
+		color:#4d4d4d;
+		font-size: 15px;
+		font-weight: 200;
+		line-height: 20px;
+	}
+
+	.nav{
+	display:block;
+		position: fixed;
+		right: 0;
+		top:0;
+		bottom:0;
+		width:40px;
+		border-left:solid 1px 	#A0AFBC;
+		z-index: 35px;
+	}
+
+	ul{
+		margin-top: 50px;
+		padding-right: 5px;
+		text-align: right;
+
+	}
+
+	li{
+		color: #999999;
+		font-family: Arial;
+		text-transform: lowercase;
+		font-size: 13px;
+		text-decoration: none;
+		list-style-type: none;
+		padding-top: 15px;
+	}
+	a{
+		font-family: Arial;
+		text-decoration: none;
+		font-size: 14px;
+
+	}
+
+	a:hover{
+		color: #000000;
+		font-size: 15px;
+	}
+
+	a:visited{
+		color: #999999;
+
+	}
+
+	.logo{
+		font-size: 40px;
+		font-style: bold;
+		font-family: "Arial Black";
+	}
+
+	.title{
+		font-family: "Arial Black";
+		margin-top:50px;
+		line-height: 55px;
+
+	}
+
+
+	.titlename{
+		font-size: 35px;
+
+
+	}
+
+	.authorname{
+		color: #14446a;
+		font-size:17px;
+	}
+
+	.context {
+		margin-top: 30px;
+
+	}
+
+	p{
+	margin-top: 30px;
+	}
+
+	.subtitle{
+		font-weight: bold;
+	}
+
+	a #more {
+		font-size: 25px;
+		color:#000000;
+	}
+
+	.artop{
+		font-size: 30px;
+		color: #acacac;
+
+	}
+
+	.artitle{
+		font-weight: bold;
+		color: #797979;
+		font-size: 18px;
+
+	}
+	.arauthor{
+		margin-top: 5px;
+		color: #797979;
+		font-size: 13px
+	}
+
+
+
+	}
+
+@media screen and (min-width:760px) and (max-width:950px){
+
+	.menu{
+		display:block;
+		position: fixed;
+		left: 0;
+		top:0
+		bottom:0;
+		list-style-type: none;
+		width:150px;
+		border-right:solid 1px 	#A0AFBC;
+		z-index: 150px;
+		height: 100%;
+	}
+
+	.article{
+		display:block;
+		position: relative;
+		margin-left: 150px;
+		float:left;
+		font-family:sans-serif ;
+		color:#4d4d4d;
+		font-size: 18px;
+		font-weight: 200;
+		line-height: 25px;
+		width:55%;
+		border-right:solid 1px 	#A0AFBC;
+		margin: 0 auto;
+	}
+
+	.alsoread{
+		display:block;
+		position: relative;
+		float:left;
+		margin-right: 40px;
+		font-family:sans-serif ;
+		color:#4d4d4d;
+		font-size: 18px;
+		font-weight: 200;
+		line-height: 20px;
+		width:20%;
+		
+	}
+
+	.nav{
+		display:block;
+		position: fixed;
+		right: 0;
+		top:0;
+		bottom:0;
+		width:40px;
+		border-left:solid 1px #A0AFBC;
+		z-index: 35px;
+	}
+
+	ul{
+		margin-top: 50px;
+		padding-right: 5px;
+		text-align: right;
+
+	}
+
+	li{
+		color: #999999;
+		font-family: Arial;
+		text-transform: lowercase;
+		font-size: 13px;
+		text-decoration: none;
+		list-style-type: none;
+		padding-top: 15px;
+	}
+	a{
+		font-family: Arial;
+		text-decoration: none;
+		font-size: 14px;
+
+	}
+
+	a:hover{
+		color: #000000;
+		font-size: 15px;
+	}
+
+	a:visited{
+		color: #999999;
+
+	}
+
+
+
+	.logo{
+		font-size: 40px;
+		font-style: bold;
+		font-family: "Arial Black";
+	}
+
+	.title{
+		font-family: "Arial Black";
+		margin-top:50px;
+
+	}
+
+
+	.titlename{
+		font-size: 35px;
+
+
+	}
+
+	.authorname{
+		color: #14446a;
+		font-size:17px;
+		padding-top: 7px;
+	}
+
+	.context {
+		margin-top: 30px;
+
+	}
+
+	p{
+	margin-top: 30px;
+	}
+
+	.subtitle{
+		font-weight: bold;
+	}
+
+	a #more {
+		font-size: 25px;
+		color:#000000;
+	}
+
+	.artop{
+		font-size: 30px;
+		color: #acacac;
+
+	}
+
+	.artitle{
+		font-weight: bold;
+		color: #797979;
+		font-size: 18px;
+
+	}
+	.arauthor{
+		margin-top: 5px;
+		color: #797979;
+		font-size: 13px
+	}
+
+
+}
+
 
 @media screen and (min-width:950px){
 .menu{
@@ -7,30 +361,38 @@
 	top:0
 	bottom:0;
 	list-style-type: none;
-	width:100px;
+	width:150px;
 	border-right:solid 1px 	#A0AFBC;
 	z-index: 90px;
+	height: 100%;
 }
-
 
 .article{
 	display:block;
 	position: relative;
-	width:60%;
+	margin-left: 150px;
+	float:left;
+	width:55%;
 	border-right:solid 1px 	#A0AFBC;
 	margin: 0 auto;
-	margin-left:100px;
-	float:left;
-
+	font-family:sans-serif ;
+	color:#4d4d4d;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 25px;
 }
 
 .alsoread{
 	display:block;
 	position: relative;
+	float:left;
+	margin-right: 40px;
+	font-family:sans-serif ;
+	color:#4d4d4d;
+	font-size: 15px;
+	font-weight: 200;
+	line-height: 20px;
 	width:25%;
-	float:left;
-	margin-right:40px;
-
 
 }
 
@@ -38,113 +400,106 @@
 display:block;
 	position: fixed;
 	right: 0;
-	top:0
+	top:0;
 	bottom:0;
 	width:40px;
 	border-left:solid 1px 	#A0AFBC;
 	z-index: 35px;
 }
+ul{
+	margin-top: 50px;
+	padding-right: 5px;
+	text-align: right;
 
 }
 
-
-
-@media screen and (max-width:950px){
-
-
-.menu{
-	display:block;
-	position: fixed;
-	left: 0;
-	top:0;
-	bottom:0;
+li{
+	color: #999999;
+	font-family: Arial;
+	text-transform: lowercase;
+	font-size: 13px;
+	text-decoration: none;
 	list-style-type: none;
-	width:100px;
-	border-right:solid 1px 	#A0AFBC;
-	z-index: 90px;
+	padding-top: 15px;
 }
-
-
-.article{
-	display:block;
-	position: relative;
-	width:50%;
-	border-right:solid 1px 	#A0AFBC;
-	margin: 0 auto;
-	margin-left:100px;
-	float:left;
+a{
+	font-family: Arial;
+	text-decoration: none;
+	font-size: 14px;
 
 }
 
-.alsoread{
-	display:block;
-	position: relative;
-	width:20%;
-	float:left;
-	margin-right:40px;
+a:hover{
+	color: #000000;
+	font-size: 15px;
+}
+
+a:visited{
+	color: #999999;
+
+}
+
+
+.logo{
+	font-size: 40px;
+	font-style: bold;
+	font-family: "Arial Black";
+}
+
+.title{
+	font-family: "Arial Black";
+	margin-top:50px;
+
+}
+
+
+.titlename{
+	font-size: 35px;
 
 
 }
 
-.nav{
-display:block;
-	position: fixed;
-	right: 0;
-	top:0;
-	bottom:0;
-	width:40px;
-	border-left:solid 1px 	#A0AFBC;
-	z-index: 35px;
+.authorname{
+	color: #14446a;
+	font-size:17px;
+	padding-top: 7px;
 }
 
+.context {
+	margin-top: 30px;
+
 }
 
-@media screen and (max-width:760px){
-
-/*.menu{
-	display:block;
-	position: fixed;
-	left: 0;
-	top:0
-	bottom:0;
-	list-style-type: none;
-	width:100px
-	:100%;	
-	border-right:solid 1px 	#A0AFBC;
-	z-index: 90px;
-}
-*/
-
-
-.article{
-	display:block;
-	position: relative;
-	padding-left:100px;
-	padding-right:40px;
-	float:left;
-	width:100%;
-	
+p{
+margin-top: 30px;
 }
 
-.alsoread{
-	display:block;
-	position: relative;
-	float:left;
-	padding-left:100px;
-	padding-right:40px;
-	width:100%;
-	/*padding-right:40px;*/
+.subtitle{
+	font-weight: bold;
 }
 
-.nav{
-display:block;
-	position: fixed;
-	right: 0;
-	top:0;
-	bottom:0;
-	width:40px;
-	border-left:solid 1px 	#A0AFBC;
-	z-index: 35px;
+a #more {
+	font-size: 25px;
+	color:#000000;
 }
+
+.artop{
+	font-size: 30px;
+	color: #acacac;
+
+}
+
+.artitle{
+	font-weight: bold;
+	color: #797979;
+	font-size: 18px;
+
+}
+.arauthor{
+	margin-top: 5px;
+	color: #797979;
+	font-size: 13px
+}
+
 
 }
