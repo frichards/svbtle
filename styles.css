@@ -89,7 +89,7 @@ table {
 		line-height: 20px;
 	}
 
-	.nav{
+	nav{
 	display:block;
 		position: fixed;
 		right: 0;
@@ -171,7 +171,7 @@ table {
 		font-weight: bold;
 	}
 
-	a #more {
+	p a .more {
 		font-size: 25px;
 		color:#000000;
 	}
@@ -328,7 +328,12 @@ table {
 		font-weight: bold;
 	}
 
-	a #more {
+	a .more {
+		font-size: 25px;
+		color:#000000;
+	}
+
+	a:visited .more{
 		font-size: 25px;
 		color:#000000;
 	}
